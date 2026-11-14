@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4442c2;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1, h2, p {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #0a0f57;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#startScreen,
+#gameScreen,
+#resultsScreen {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#startButton, #startGameButton, #playAgainButton {
+    background-color: white;
+    color: #0a0f57;
+}
+
+#playingScreen {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#reactionButton {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid darkred;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reactionButton:hover {
+    background-color: #cc0000;
+}
+
+#score, #timer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#reactionResult, #reactionRating {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
