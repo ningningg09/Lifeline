@@ -67,7 +67,7 @@ function startGame() {
                 reactionResult.textContent =
                     "Average time per click: " + averageTime.toFixed(2) + " ms";
 
-                if (averageTime < 250) {
+                if (averageTime < 350) {
                     reactionRating.textContent = "Good reaction time!";
                     reactionRating.style.color = "#90ff90";
                 } else {
