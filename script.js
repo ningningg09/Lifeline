@@ -98,3 +98,4 @@ playAgainButton.addEventListener("click", function() {
     resultsScreen.classList.add("hidden");
     gameScreen.classList.remove("hidden");
 });
+
