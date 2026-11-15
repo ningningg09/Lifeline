@@ -7,6 +7,7 @@ const startButton = document.getElementById("startButton");
 const startGameButton = document.getElementById("startGameButton");
 const reactionButton = document.getElementById("reactionButton");
 const playAgainButton = document.getElementById("playAgainButton");
+const helpButton = document.getElementById("helpButton");
 
 const scoreDisplay = document.getElementById("score");
 const timerDisplay = document.getElementById("timer");
@@ -98,4 +99,6 @@ playAgainButton.addEventListener("click", function() {
     resultsScreen.classList.add("hidden");
     gameScreen.classList.remove("hidden");
 });
-
+ helpButton.addEventListener("click", function() {
+            alert("Help is on the way!");
+});
