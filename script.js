@@ -77,7 +77,7 @@ function startGame() {
 
             } else {
                 reactionResult.textContent = "No clicks recorded.";
-                reactionRating.textContent = "Try again!";
+                reactionRating.textContent = "UNRESPONSIVEL: MEDICAL HELP COMING";
             }
         }
 
