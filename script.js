@@ -16,7 +16,7 @@ const reactionResult = document.getElementById("reactionResult");
 const reactionRating = document.getElementById("reactionRating");
 
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 10;
 let timer;
 
 startButton.addEventListener("click", function() {
@@ -38,7 +38,7 @@ function moveButton() {
 
 function startGame() {
     score = 0;
-    timeLeft = 30;
+    timeLeft = 10;
 
     scoreDisplay.textContent = "Clicks: " + score;
     timerDisplay.textContent = "Time: " + timeLeft;
@@ -63,7 +63,7 @@ function startGame() {
             finalScore.textContent = "Your final score: " + score;
 
             if (score > 0) {
-                let averageTime = 30000 / score;
+                let averageTime = 10000 / score;
 
                 reactionResult.textContent =
                     "Average time per click: " + averageTime.toFixed(2) + " ms";
