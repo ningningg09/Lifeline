@@ -24,7 +24,8 @@ There are interactive areas to input health information from your own trackers s
 - Tracking sleep 
 - Journal to track daily activities and state. 
 
-Full game interface:
+Website link: https://linelife.my.canva.site/lifeline 
+Full tracking game interface:
 https://ningningg09.github.io/Lifeline/ 
 
 
